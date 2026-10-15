@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bangers", system-ui;
+}
+
+body{
+    height: 100vh;
+}
+
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Assets/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    
+}
+
+.nome{
+    color: #ff3cac;
+    font-size: 360px;
+    position: absolute;
+    bottom: 550px;
+    text-align: center;
+    width: 100vw;
+}
+
+.personagem{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    height: 700px;
+}
+
+.text{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: #fff;
+}
+
+.text .etiqueta{
+    color: #ffd319;
+    font-size: 26px;
+}
+
+.text h1{
+    font-size: 72px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.text .etiqueta2 {
+    font-size: 20px;
+}
+
+.botoes{
+    position: absolute;
+    bottom: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.botoes img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid #fff;
+}
+
+.botoes button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid #fff;
+    background: #ffd319;
+    font-size: 30px;
+}
